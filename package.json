@@ -1,6 +1,6 @@
 {
   "name": "data-module-db-ctx",
-  "version": "1.0.2-beta",
+  "version": "1.0.3-beta",
   "description": "designed to share common types, models, db-ctx to parser and api.",
   "main": "build/index.js",
   "types": "build",
