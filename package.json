@@ -1,13 +1,11 @@
 {
   "name": "data-module-db-ctx",
-  "version": "1.0.0",
+  "version": "1.0.2-beta",
   "description": "designed to share common types, models, db-ctx to parser and api.",
-  "main": "index.js",
+  "main": "build/index.js",
+  "types": "build",
   "scripts": {
-    "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "start:prod": "node build/index.js",
-    "clean": "del ./build/*",
-    "build": "npm run clean && tsc"
+    "build": "tsc -p ."
   },
   "author": "Giorgi Kirvalidze",
   "license": "ISC",
